@@ -476,7 +476,6 @@ namespace Curs_07_04_AlgoritmiFundamentali
             }
             pictureBox2.Image = destination;
         }
-
         private void btnFirstGradiant_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < source.Width; i++)
@@ -494,7 +493,6 @@ namespace Curs_07_04_AlgoritmiFundamentali
             }
             pictureBox2.Image = destination;
         }
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             int k = 5;
@@ -511,9 +509,7 @@ namespace Curs_07_04_AlgoritmiFundamentali
                         {
                             destination.SetPixel((i + l) % source.Width, (j + m) % source.Height, Ts);
                         }
-                    }
-                    
-                   
+                    }                                     
                 }
             }
             pictureBox2.Image = destination;
